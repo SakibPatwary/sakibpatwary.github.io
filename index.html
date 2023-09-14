@@ -621,6 +621,7 @@
             <div>
               <textarea class="form-input" id="message" placeholder="Your Message" rows="3" required></textarea>
             </div>
+            <div class="errmessage" id="message-container"></div>
             <button class="form-btn" type="button" onclick="validateAndSend()">
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
@@ -640,10 +641,13 @@
         const nameInput = document.getElementById("name");
         const emailInput = document.getElementById("email");
         const messageInput = document.getElementById("message");
+         const messageContainer = document.getElementById("message-container");
 
         if (nameInput.value.trim() === "" || emailInput.value.trim() === "" || messageInput.value.trim() === "") {
-          alert("Please fill in all required fields.");
+          // alert("Please fill in all required fields.");
+          messageContainer.innerHTML = "Please fill all the fields!";
         } else {
+          messageContainer.innerHTML = "";
           sendMail();
         }
       }
@@ -657,14 +661,17 @@
 
       const serviceID = "service_ia2hlis";
       const templateID = "template_2bqei6g";
+      const messageContainer = document.getElementById("message-container");
 
       emailjs.send(serviceID, templateID, params)
         .then(res => {
           document.getElementById("name").value = "";
           document.getElementById("email").value = "";
           document.getElementById("message").value = "";
+
+          messageContainer.innerHTML = "Your message sent successfully!";
           console.log(res);
-          alert("Your message sent successfully!!");
+          // alert("Your message sent successfully!!");
         })
         .catch(err => console.log(err));
     }
