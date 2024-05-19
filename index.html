@@ -450,21 +450,21 @@
 
           <ul class="project-list">
 
-                        <li class="project-item  active" data-filter-item data-category="web development">
-                          <a href="https://smartthinksbd.com/" target='blank'>
-                        
-                            <figure class="project-img">
-                              <div class="project-item-icon-box">
-                                <ion-icon name="eye-outline"></ion-icon>
-                              </div>
-                        
-                              <img src="./assets/images/smartthink.jpg" alt="unifly" loading="lazy">
-                            </figure>
-                        
-                            <h3 class="project-title">Smart Think</h3>
-                        
-                          </a>
-                        </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://smartthinksbd.com/" target='blank'>
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/smartthink.jpg" alt="unifly" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Smart Think</h3>
+
+              </a>
+            </li>
 
             <li class="project-item  active" data-filter-item data-category="web development">
               <a href="https://unifly-travels.com/" target='blank'>
@@ -532,17 +532,17 @@
 
             <li class="project-item  active" data-filter-item data-category="web development">
               <a href="https://kamalitaxi.co.uk/" target='blank'>
-            
+
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-            
+
                   <img src="./assets/images/kamali.png" alt="kamali" loading="lazy">
                 </figure>
-            
+
                 <h3 class="project-title">Kamali Taxi</h3>
-            
+
               </a>
             </li>
 
@@ -565,32 +565,80 @@
 
             <li class="project-item  active" data-filter-item data-category="web development">
               <a href="https://organicspabd.com/" target='blank'>
-            
+
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-            
+
                   <img src="./assets/images/organicspa.jpg" alt="unifly" loading="lazy">
                 </figure>
-            
+
                 <h3 class="project-title">Organic Spa BD</h3>
-            
+
               </a>
             </li>
 
             <li class="project-item  active" data-filter-item data-category="web development">
               <a href="https://sakibpatwary.netlify.app/" target='blank'>
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/patwary.jpg" alt="unifly" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Portfolio Template</h3>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://gapsinternational.co.uk/" target='blank'>
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/gaps.png" alt="Gaps" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">GAPS Consultancy</h3>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="http://15.206.66.98/login" target='blank'>
             
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
             
-                  <img src="./assets/images/patwary.jpg" alt="unifly" loading="lazy">
+                  <img src="./assets/images/northeast.png" alt="Northeast" loading="lazy">
                 </figure>
             
-                <h3 class="project-title">Portfolio Template</h3>
+                <h3 class="project-title">Northeast ERP</h3>
+            
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://nanangostarmotel.com.au/" target='blank'>
+            
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+            
+                  <img src="./assets/images/nanango.png" alt="Northeast" loading="lazy">
+                </figure>
+            
+                <h3 class="project-title">Nanango Star Motel</h3>
             
               </a>
             </li>
@@ -654,19 +702,19 @@
 
   <script>
     function validateAndSend() {
-        const nameInput = document.getElementById("name");
-        const emailInput = document.getElementById("email");
-        const messageInput = document.getElementById("message");
-         const messageContainer = document.getElementById("message-container");
+      const nameInput = document.getElementById("name");
+      const emailInput = document.getElementById("email");
+      const messageInput = document.getElementById("message");
+      const messageContainer = document.getElementById("message-container");
 
-        if (nameInput.value.trim() === "" || emailInput.value.trim() === "" || messageInput.value.trim() === "") {
-          // alert("Please fill in all required fields.");
-          messageContainer.innerHTML = "Please fill all the fields!";
-        } else {
-          messageContainer.innerHTML = "";
-          sendMail();
-        }
+      if (nameInput.value.trim() === "" || emailInput.value.trim() === "" || messageInput.value.trim() === "") {
+        // alert("Please fill in all required fields.");
+        messageContainer.innerHTML = "Please fill all the fields!";
+      } else {
+        messageContainer.innerHTML = "";
+        sendMail();
       }
+    }
 
     function sendMail() {
       var params = {
