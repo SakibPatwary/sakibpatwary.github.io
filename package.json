@@ -1,0 +1,32 @@
+{
+  "name": "sakib-patwary-portfolio",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test",
+    "format": "prettier --write src scripts index.html README.md tests vite.config.js package.json",
+    "prebuild": "node scripts/optimize-images.mjs",
+    "predev": "node scripts/optimize-images.mjs",
+    "optimize:images": "node scripts/optimize-images.mjs",
+    "postbuild": "node scripts/check-build.mjs"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@tailwindcss/vite": "^4.1.0",
+    "framer-motion": "^14.9.0",
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.0",
+    "prettier": "^3.9.10",
+    "sharp": "^0.35.5",
+    "vite": "^6.1.0"
+  }
+}

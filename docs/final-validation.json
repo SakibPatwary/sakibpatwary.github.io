@@ -1,0 +1,783 @@
+{
+  "reviewedOn": "2026-11-03",
+  "routeViewportChecks": [
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#home",
+      "size": "320x740"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#projects",
+      "size": "320x740"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#experience",
+      "size": "320x740"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#music",
+      "size": "320x740"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#contact",
+      "size": "320x740"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#about",
+      "size": "320x740"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#home",
+      "size": "390x844"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#projects",
+      "size": "390x844"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#experience",
+      "size": "390x844"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#music",
+      "size": "390x844"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#contact",
+      "size": "390x844"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#about",
+      "size": "390x844"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#home",
+      "size": "768x1024"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#projects",
+      "size": "768x1024"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#experience",
+      "size": "768x1024"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#music",
+      "size": "768x1024"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#contact",
+      "size": "768x1024"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#about",
+      "size": "768x1024"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#home",
+      "size": "844x390"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#projects",
+      "size": "844x390"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#experience",
+      "size": "844x390"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#music",
+      "size": "844x390"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#contact",
+      "size": "844x390"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#about",
+      "size": "844x390"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#home",
+      "size": "600x900"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#projects",
+      "size": "600x900"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#experience",
+      "size": "600x900"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#music",
+      "size": "600x900"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#contact",
+      "size": "600x900"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#about",
+      "size": "600x900"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#home",
+      "size": "601x900"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#projects",
+      "size": "601x900"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#experience",
+      "size": "601x900"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#music",
+      "size": "601x900"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#contact",
+      "size": "601x900"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#about",
+      "size": "601x900"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#home",
+      "size": "1024x768"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#projects",
+      "size": "1024x768"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#experience",
+      "size": "1024x768"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#music",
+      "size": "1024x768"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#contact",
+      "size": "1024x768"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#about",
+      "size": "1024x768"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#home",
+      "size": "1440x900"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#projects",
+      "size": "1440x900"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#experience",
+      "size": "1440x900"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#music",
+      "size": "1440x900"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#contact",
+      "size": "1440x900"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#about",
+      "size": "1440x900"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#home",
+      "size": "1920x1080"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#projects",
+      "size": "1920x1080"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#experience",
+      "size": "1920x1080"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#music",
+      "size": "1920x1080"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#contact",
+      "size": "1920x1080"
+    },
+    {
+      "documentOverflow": false,
+      "headingOverflow": false,
+      "mainOverflow": false,
+      "playerOffscreen": false,
+      "route": "#about",
+      "size": "1920x1080"
+    }
+  ],
+  "projectDrawerChecks": [
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Smart Think",
+      "overflow": false,
+      "square": true,
+      "stack": "Suggested · please verify",
+      "width": 320
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "TGIT Bangladesh",
+      "overflow": false,
+      "square": true,
+      "stack": "Observed on live site",
+      "width": 320
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Youwin Education",
+      "overflow": false,
+      "square": true,
+      "stack": "Observed on live site",
+      "width": 320
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Asaduzzaman Portfolio",
+      "overflow": false,
+      "square": true,
+      "stack": "Observed on live site",
+      "width": 320
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Kamali Taxi",
+      "overflow": false,
+      "square": true,
+      "stack": "Suggested · please verify",
+      "width": 320
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Consortium BD",
+      "overflow": false,
+      "square": true,
+      "stack": "Observed on live site",
+      "width": 320
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Unifly Travels",
+      "overflow": false,
+      "square": true,
+      "stack": "Repository verified",
+      "width": 320
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Organic Spa BD",
+      "overflow": false,
+      "square": true,
+      "stack": "Observed on live site",
+      "width": 320
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Portfolio Template",
+      "overflow": false,
+      "square": true,
+      "stack": "Observed on live site",
+      "width": 320
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "GAPS Consultancy",
+      "overflow": false,
+      "square": true,
+      "stack": "Suggested · please verify",
+      "width": 320
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Northeast ERP",
+      "overflow": false,
+      "square": true,
+      "stack": "Suggested · please verify",
+      "width": 320
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Nanango Star Motel",
+      "overflow": false,
+      "square": true,
+      "stack": "Repository verified",
+      "width": 320
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Skytouch Education",
+      "overflow": false,
+      "square": true,
+      "stack": "Observed on live site",
+      "width": 320
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Rang Mein Bhang",
+      "overflow": false,
+      "square": true,
+      "stack": "Observed on live site",
+      "width": 320
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Country Roads Motor Inn",
+      "overflow": false,
+      "square": true,
+      "stack": "Repository verified",
+      "width": 320
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Vape 4U BD",
+      "overflow": false,
+      "square": true,
+      "stack": "Observed on live site",
+      "width": 320
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Rinaldi Candle Co",
+      "overflow": false,
+      "square": true,
+      "stack": "Suggested · please verify",
+      "width": 320
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Smart Think",
+      "overflow": false,
+      "square": true,
+      "stack": "Suggested · please verify",
+      "width": 1280
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "TGIT Bangladesh",
+      "overflow": false,
+      "square": true,
+      "stack": "Observed on live site",
+      "width": 1280
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Youwin Education",
+      "overflow": false,
+      "square": true,
+      "stack": "Observed on live site",
+      "width": 1280
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Asaduzzaman Portfolio",
+      "overflow": false,
+      "square": true,
+      "stack": "Observed on live site",
+      "width": 1280
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Kamali Taxi",
+      "overflow": false,
+      "square": true,
+      "stack": "Suggested · please verify",
+      "width": 1280
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Consortium BD",
+      "overflow": false,
+      "square": true,
+      "stack": "Observed on live site",
+      "width": 1280
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Unifly Travels",
+      "overflow": false,
+      "square": true,
+      "stack": "Repository verified",
+      "width": 1280
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Organic Spa BD",
+      "overflow": false,
+      "square": true,
+      "stack": "Observed on live site",
+      "width": 1280
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Portfolio Template",
+      "overflow": false,
+      "square": true,
+      "stack": "Observed on live site",
+      "width": 1280
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "GAPS Consultancy",
+      "overflow": false,
+      "square": true,
+      "stack": "Suggested · please verify",
+      "width": 1280
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Northeast ERP",
+      "overflow": false,
+      "square": true,
+      "stack": "Suggested · please verify",
+      "width": 1280
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Nanango Star Motel",
+      "overflow": false,
+      "square": true,
+      "stack": "Repository verified",
+      "width": 1280
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Skytouch Education",
+      "overflow": false,
+      "square": true,
+      "stack": "Observed on live site",
+      "width": 1280
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Rang Mein Bhang",
+      "overflow": false,
+      "square": true,
+      "stack": "Observed on live site",
+      "width": 1280
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Country Roads Motor Inn",
+      "overflow": false,
+      "square": true,
+      "stack": "Repository verified",
+      "width": 1280
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Vape 4U BD",
+      "overflow": false,
+      "square": true,
+      "stack": "Observed on live site",
+      "width": 1280
+    },
+    {
+      "broken": false,
+      "fit": "contain",
+      "name": "Rinaldi Candle Co",
+      "overflow": false,
+      "square": true,
+      "stack": "Suggested · please verify",
+      "width": 1280
+    }
+  ],
+  "playlistEmbeds": [
+    {
+      "name": "PATWARY",
+      "loaded": true
+    },
+    {
+      "name": "PATTU's",
+      "loaded": true
+    },
+    {
+      "name": "Penguine🐧",
+      "loaded": true
+    },
+    {
+      "name": "Bengali Penguine🐧",
+      "loaded": true
+    },
+    {
+      "name": "Hindi Penguine🐧",
+      "loaded": true
+    },
+    {
+      "name": "♡⁠  ⁠~⁠♪",
+      "loaded": true
+    },
+    {
+      "name": "2023",
+      "loaded": true
+    },
+    {
+      "name": "｡⁠*ﾟ",
+      "loaded": true
+    }
+  ],
+  "unitTests": 9,
+  "staticBuild": "passed",
+  "dependencyAudit": "0 known vulnerabilities (offline audit)",
+  "emailDelivery": "Not sent; whitespace and required-field validation checked without transmitting a message"
+}
