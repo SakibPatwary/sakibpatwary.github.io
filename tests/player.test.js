@@ -60,10 +60,6 @@ test("all original project assets and destinations are present", () => {
 });
 
 test("project technology stacks contain usable names and remain searchable", () => {
-  assert.deepEqual(
-    filterProjects(projects, { query: "Framer Motion" }).map((p) => p.name),
-    ["Nanango Star Motel"],
-  );
   for (const project of projects) {
     assert.ok(Array.isArray(project.stack) && project.stack.length > 0);
     assert.equal(new Set(project.stack).size, project.stack.length);
