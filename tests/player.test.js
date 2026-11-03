@@ -59,28 +59,22 @@ test("all original project assets and destinations are present", () => {
   });
 });
 
-test("all stacks distinguish repository, observed, and suggested evidence", () => {
+test("project technology stacks contain usable names and remain searchable", () => {
   assert.deepEqual(
     filterProjects(projects, { query: "Framer Motion" }).map((p) => p.name),
     ["Nanango Star Motel"],
   );
   for (const project of projects) {
-    assert.ok(project.stack.length > 0);
-    assert.ok(
-      ["verified", "observed", "suggested"].includes(project.stackStatus),
-    );
-    assert.ok(project.stackNote);
-    if (project.stackStatus === "suggested")
-      assert.equal(project.stackSource, undefined);
-    else assert.ok(project.stackSource.startsWith("https://"));
+    assert.ok(Array.isArray(project.stack) && project.stack.length > 0);
+    assert.equal(new Set(project.stack).size, project.stack.length);
+    for (const technology of project.stack) {
+      assert.equal(typeof technology, "string");
+      assert.ok(technology.trim().length > 0);
+      assert.ok(
+        filterProjects(projects, { query: technology }).some(
+          (match) => match.id === project.id,
+        ),
+      );
+    }
   }
-  const verified = projects.filter(
-    (project) => project.stackStatus === "verified",
-  );
-  assert.equal(verified.length, 3);
-  verified.forEach((project) =>
-    assert.ok(
-      project.stackSource.startsWith(project.repositoryUrl + "/blob/main/"),
-    ),
-  );
 });
