@@ -25,7 +25,7 @@ export default function Intro() {
     >
       <AudioLines className="intro-icon" size={38} />
       <div className="typing-name">
-        <span>Sakib Patwary</span>
+        <span>SAKIB PATWARY</span>
       </div>
       <p>GOOD DESIGN. CLEAN CODE. ON REPEAT.</p>
       <button onClick={() => setVisible(false)}>

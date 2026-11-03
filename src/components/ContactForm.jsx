@@ -71,7 +71,7 @@ export default function ContactForm({ sendMessage = sendContactMessage }) {
             <input
               name="name"
               autoComplete="name"
-              placeholder="Alex Morgan"
+              placeholder="Sakib Patwary"
               required
               maxLength={100}
             />
@@ -82,7 +82,7 @@ export default function ContactForm({ sendMessage = sendContactMessage }) {
               name="email"
               type="email"
               autoComplete="email"
-              placeholder="alex@company.com"
+              placeholder="shakibpatwary001@gmail.com"
               required
               maxLength={200}
             />
@@ -92,7 +92,7 @@ export default function ContactForm({ sendMessage = sendContactMessage }) {
           What do you have in mind?
           <textarea
             name="message"
-            placeholder="Tell me a little about your project…"
+            placeholder="Write down you message here...."
             rows="4"
             required
             maxLength={5000}

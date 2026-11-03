@@ -35,7 +35,7 @@ export function ArtistHero({ player, navigate }) {
             THE DEVELOPER COLLECTION
           </p>
           <h1>
-            Sakib Patwary<span>.</span>
+            SAKIB PATWARY<span>.</span>
           </h1>
           <p className="hero-subtitle">{introduction.subtitle}</p>
           <p className="hero-tagline">{introduction.headline}</p>

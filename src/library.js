@@ -1,5 +1,5 @@
 // Portfolio-owner selections. Edit this list to change the initial top picks.
-export const TOP_PROJECT_IDS = [11, 14, 6, 1];
+export const TOP_PROJECT_IDS = [1, 16, 14, 13, 11];
 export const LIBRARY_STORAGE_KEY = "sp-library-v2";
 export function restoreLibrary(current, legacy, validIds) {
   const valid = new Set(validIds);
@@ -17,6 +17,6 @@ export function restoreLibrary(current, legacy, validIds) {
   try {
     const parsed = JSON.parse(legacy);
     if (Array.isArray(parsed)) previous = parsed;
-  } catch {}
+  } catch { }
   return clean([...TOP_PROJECT_IDS, ...previous]);
 }

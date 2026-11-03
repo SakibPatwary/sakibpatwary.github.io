@@ -60,7 +60,7 @@ export default function App() {
   }, []);
   useEffect(() => {
     main.current?.scrollTo({ top: 0 });
-    document.title = `${page === "home" ? "Sakib Patwary" : page === "about" ? "About Sakib" : page === "projects" ? "All Projects" : page === "experience" ? "Experience & Skills" : page === "music" ? "My Playlist" : page === "library" ? "Your library" : "Contact / Socials"} - s.patwary`;
+    document.title = `${page === "home" ? "Home" : page === "about" ? "About Sakib" : page === "projects" ? "All Projects" : page === "experience" ? "Experience & Skills" : page === "music" ? "My Playlist" : page === "library" ? "Your library" : "Contact / Socials"} - Sakib Patwary`;
   }, [page]);
   const navigate = (next) => {
     if (route() === next) {

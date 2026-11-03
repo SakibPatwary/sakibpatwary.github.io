@@ -70,7 +70,7 @@ export default function ProjectsPage({
           </p>
           <div className="playlist-meta">
             <span className="mini-avatar">S</span>
-            <strong>Sakib Patwary</strong>
+            <strong>SAKIB PATWARY</strong>
             <span>· {projects.length} projects</span>
             <span>· 30-second tour previews</span>
           </div>

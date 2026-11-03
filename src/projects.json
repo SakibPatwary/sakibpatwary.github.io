@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "url": "https://smartthinksbd.com/",
+    "url": "https://smartthinkbd.com/",
     "image": "smartthink.jpg",
     "name": "Smart Think",
     "category": "Business",
@@ -59,7 +59,7 @@
     "image": "unifly.jpg",
     "name": "Unifly Travels",
     "category": "Travel & lifestyle",
-    "stack": ["React", "JavaScript"],
+    "stack": ["React", "JavaScript", "Bootstrap", "Framer Motion", "Node.js"],
     "stackReviewedOn": "2026-11-03"
   },
   {
@@ -95,7 +95,7 @@
     "image": "northeast.png",
     "name": "Northeast ERP",
     "category": "Applications",
-    "stack": ["React", "Node.js", "MySQL"],
+    "stack": ["React", "Node.js", "MongoBD", "Bootstrap"],
     "stackReviewedOn": "2026-11-03"
   },
   {
