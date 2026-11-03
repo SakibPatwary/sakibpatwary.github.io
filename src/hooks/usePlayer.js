@@ -18,7 +18,7 @@ export default function usePlayer(projects) {
   const [audioError, setAudioError] = useState("");
   const audio = useRef(null);
   const previousVolume = useRef(25);
-  const current = index >= 0 ? projects[index] : null;
+  const current = projects.find((project) => project.id === index) || null;
 
   const select = useCallback(
     (project, start = true) => {
@@ -58,7 +58,8 @@ export default function usePlayer(projects) {
   );
   const pause = useCallback(() => setPlaying(false), []);
   const toggle = () => {
-    if (index < 0) setIndex(0);
+    if (!projects.length) return;
+    if (!current) setIndex(projects[0].id);
     setPlaying((value) => !value);
   };
 

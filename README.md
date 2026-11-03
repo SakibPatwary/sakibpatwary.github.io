@@ -76,7 +76,8 @@ Three existing projects now have documented stacks and source links: Country Roa
 
 - `src/data.js`: contact details, social profiles, career history, education.
 - `src/content.js`: exact introduction, biography, services, tour duration, asset helper.
-- `src/projects.json`: project names, destinations, categories, and preview filenames. Keep IDs sequential from zero, or update the player selection lookup when changing that convention.
+- `src/projects.json`: project names, destinations, categories, technology stacks, and preview filenames. Give each project a unique nonnegative integer ID. Keep existing IDs stable; projects can be reordered or removed without renumbering.
+- `src/library.js`: change `TOP_PROJECT_IDS` to choose the default liked projects. Use IDs from `src/projects.json`; existing visitors retain their saved likes.
 - `public/assets/images/`: original project artwork and portrait.
 - `src/styles.css`: design tokens, responsive layout, focus indicators, and reduced motion.
 
@@ -87,6 +88,10 @@ The original `assets/` directory is retained as source material. The build serve
 1. In repository **Settings → Pages → Build and deployment**, select **GitHub Actions**.
 2. Push to `main` or `master`, or manually run the included deployment workflow.
 3. The workflow installs locked dependencies, runs tests, builds, uploads `dist/`, and deploys to Pages.
+
+Do not use **Deploy from a branch** for this Vite source repository. It publishes the uncompiled `index.html`, which references `/src/main.jsx` and produces a blank page. If both `pages build and deployment` and `Deploy portfolio to GitHub Pages` appear for each push, switch the Pages source to GitHub Actions, then run `Deploy portfolio to GitHub Pages` again.
+
+Routine edits to names, descriptions, stacks, categories, order, or `TOP_PROJECT_IDS` do not require changing tests. Tests check data validity and behavior rather than a fixed project count or curated list. Add the corresponding image in `public/assets/images/` when adding a project. Run `npm test` and `npm run build` before pushing.
 
 For another default branch, update the workflow trigger. Vite uses `base: './'`, so the build supports both user-site roots and repository subpaths. Deploy the contents of `dist/`, not the unbuilt React source. This task does not push or deploy changes automatically.
 

@@ -26,8 +26,18 @@ test("empty and single-project collections are safe", () => {
   assert.equal(nextProjectIndex(0, 1, 1, true), 0);
 });
 test("search, category and saved-project filters compose", () => {
-  assert.equal(filterProjects(projects).length, 17);
-  assert.equal(filterProjects(projects, { category: "Education" }).length, 3);
+  const projects = [
+    { id: 0, name: "Smart Think", category: "Business", stack: ["React"] },
+    {
+      id: 2,
+      name: "Learning portal",
+      category: "Education",
+      stack: ["JavaScript"],
+    },
+    { id: 5, name: "Course library", category: "Education", stack: ["React"] },
+  ];
+  assert.equal(filterProjects(projects).length, 3);
+  assert.equal(filterProjects(projects, { category: "Education" }).length, 2);
   assert.equal(
     filterProjects(projects, { query: "  SMART think  " })[0].name,
     "Smart Think",
@@ -45,11 +55,12 @@ test("search, category and saved-project filters compose", () => {
     0,
   );
 });
-test("all original project assets and destinations are present", () => {
-  assert.equal(projects.length, 17);
-  assert.equal(new Set(projects.map((p) => p.url)).size, 17);
-  projects.forEach((project, index) => {
-    assert.equal(project.id, index);
+test("project entries have unique stable IDs, valid destinations and existing artwork", () => {
+  assert.equal(new Set(projects.map((p) => p.id)).size, projects.length);
+  projects.forEach((project) => {
+    assert.ok(Number.isInteger(project.id) && project.id >= 0);
+    assert.ok(typeof project.name === "string" && project.name.trim());
+    assert.ok(typeof project.category === "string" && project.category.trim());
     assert.ok(["http:", "https:"].includes(new URL(project.url).protocol));
     assert.ok(
       fs.existsSync(

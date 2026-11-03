@@ -5,7 +5,19 @@ import { readFileSync } from "node:fs";
 const projects = JSON.parse(
   readFileSync(new URL("../src/projects.json", import.meta.url)),
 );
-const validIds = projects.map((project) => project.id);
+// Storage behavior uses fixture IDs so editing the portfolio cannot change its expectations.
+const validIds = [...new Set([...TOP_PROJECT_IDS, 0, 1, 2])];
+
+test("default liked projects refer to unique IDs in the current collection", () => {
+  const projectIds = new Set(projects.map((project) => project.id));
+  assert.equal(new Set(TOP_PROJECT_IDS).size, TOP_PROJECT_IDS.length);
+  for (const id of TOP_PROJECT_IDS) {
+    assert.ok(
+      projectIds.has(id),
+      `Default liked project ID ${id} does not exist`,
+    );
+  }
+});
 test("new visitors see the curated top projects", () =>
   assert.deepEqual(restoreLibrary(null, null, validIds), TOP_PROJECT_IDS));
 test("an empty legacy library is upgraded to the curated collection", () =>
