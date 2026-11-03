@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { TOUR_DURATION } from "../content";
 import { nextProjectIndex } from "../player-utils";
+import { createAmbientAudio } from "../ambient-audio";
 
 // Playback is a guided project tour. Audio is optional, synthesized locally,
 // and only enabled by a visitor gesture. No external audio is fetched.
@@ -84,18 +85,7 @@ export default function usePlayer(projects) {
       try {
         const AudioContext = window.AudioContext || window.webkitAudioContext;
         const context = new AudioContext();
-        const gain = context.createGain();
-        gain.gain.value = 0;
-        gain.connect(context.destination);
-        const oscillators = [130.81, 164.81, 196].map((frequency) => {
-          const oscillator = context.createOscillator();
-          oscillator.type = "sine";
-          oscillator.frequency.value = frequency;
-          oscillator.connect(gain);
-          oscillator.start();
-          return oscillator;
-        });
-        audio.current = { context, gain, oscillators };
+        audio.current = createAmbientAudio(context);
         await context.resume();
       } catch {
         setAudioError(
@@ -112,7 +102,7 @@ export default function usePlayer(projects) {
     if (audio.current) {
       const { gain, context } = audio.current;
       gain.gain.setTargetAtTime(
-        playing ? (volume / 100) * 0.035 : 0,
+        playing ? (volume / 100) * 0.3 : 0,
         context.currentTime,
         0.12,
       );
@@ -121,8 +111,7 @@ export default function usePlayer(projects) {
   useEffect(
     () => () => {
       if (audio.current) {
-        audio.current.oscillators.forEach((oscillator) => oscillator.stop());
-        audio.current.context.close();
+        audio.current.dispose();
       }
     },
     [],
