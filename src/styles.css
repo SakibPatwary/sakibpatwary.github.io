@@ -5170,3 +5170,47 @@ input[type="range"]:focus-visible::-webkit-slider-thumb {
     line-height: 1.7;
   }
 }
+.contact-success {
+  min-height: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 28px 18px;
+  animation: route-in 0.25s ease;
+}
+.contact-success-icon {
+  width: 86px;
+  height: 86px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #1ed76012;
+  border: 1px solid #1ed76040;
+  color: var(--green);
+  box-shadow: 0 0 35px #1ed7600a;
+}
+.contact-success h2 {
+  font-size: 25px;
+  margin: 22px 0 12px;
+  letter-spacing: -0.6px;
+}
+.contact-success > p {
+  font-size: 13px;
+  line-height: 1.9;
+  color: #afc8b8;
+  max-width: 310px;
+}
+@media (max-width: 600px) {
+  .contact-success {
+    min-height: 360px;
+    padding: 25px 10px;
+  }
+  .contact-success h2 {
+    font-size: 25px;
+  }
+  .contact-success > p {
+    font-size: 12px;
+  }
+}

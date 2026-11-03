@@ -6,8 +6,6 @@
     "name": "Smart Think",
     "category": "Business",
     "stack": ["React", "JavaScript", "Bootstrap"],
-    "stackStatus": "suggested",
-    "stackNote": "Suggested stack for your review. Not verified; edit this entry in src/projects.json before presenting it as the project’s actual stack.",
     "stackReviewedOn": "2026-11-03"
   },
   {
@@ -17,9 +15,6 @@
     "name": "TGIT Bangladesh",
     "category": "Business",
     "stack": ["Next.js", "React", "JavaScript"],
-    "stackStatus": "observed",
-    "stackSource": "https://tgitbangladesh.com/",
-    "stackNote": "Detected on the current public website. Its current implementation may differ from the original portfolio project.",
     "stackReviewedOn": "2026-11-03"
   },
   {
@@ -29,9 +24,6 @@
     "name": "Youwin Education",
     "category": "Education",
     "stack": ["HTML", "CSS", "JavaScript", "Bootstrap"],
-    "stackStatus": "observed",
-    "stackSource": "https://www.youwineducation.org/",
-    "stackNote": "Detected on the current public website. Its current implementation may differ from the original portfolio project.",
     "stackReviewedOn": "2026-11-03"
   },
   {
@@ -41,9 +33,6 @@
     "name": "Asaduzzaman Portfolio",
     "category": "Portfolio",
     "stack": ["React", "JavaScript", "CSS"],
-    "stackStatus": "observed",
-    "stackSource": "https://asaduzzamanriyad.netlify.app/",
-    "stackNote": "Detected on the current public website. Its current implementation may differ from the original portfolio project.",
     "stackReviewedOn": "2026-11-03"
   },
   {
@@ -53,8 +42,6 @@
     "name": "Kamali Taxi",
     "category": "Business",
     "stack": ["HTML", "CSS", "JavaScript", "Bootstrap"],
-    "stackStatus": "suggested",
-    "stackNote": "Suggested stack for your review. Not verified; edit this entry in src/projects.json before presenting it as the project’s actual stack.",
     "stackReviewedOn": "2026-11-03"
   },
   {
@@ -64,9 +51,6 @@
     "name": "Consortium BD",
     "category": "Business",
     "stack": ["HTML", "CSS", "JavaScript", "Bootstrap"],
-    "stackStatus": "observed",
-    "stackSource": "https://consortiumbd.com/",
-    "stackNote": "Detected on the current public website. Its current implementation may differ from the original portfolio project.",
     "stackReviewedOn": "2026-11-03"
   },
   {
@@ -76,11 +60,6 @@
     "name": "Unifly Travels",
     "category": "Travel & lifestyle",
     "stack": ["React", "JavaScript"],
-    "repositoryUrl": "https://github.com/SakibPatwary/UniflyTravel--Frontend",
-    "stackSource": "https://github.com/SakibPatwary/UniflyTravel--Frontend/blob/main/package.json",
-    "description": "The public Unifly Travel frontend repository describes a static homepage built with React. Explore the frontend source or visit the original travel website.",
-    "stackStatus": "verified",
-    "stackNote": "Documented in the linked public repository.",
     "stackReviewedOn": "2026-11-03"
   },
   {
@@ -90,9 +69,6 @@
     "name": "Organic Spa BD",
     "category": "Travel & lifestyle",
     "stack": ["React", "JavaScript", "CSS"],
-    "stackStatus": "observed",
-    "stackSource": "https://organicspabd.com/",
-    "stackNote": "Detected on the current public website. Its current implementation may differ from the original portfolio project.",
     "stackReviewedOn": "2026-11-03"
   },
   {
@@ -102,9 +78,6 @@
     "name": "Portfolio Template",
     "category": "Portfolio",
     "stack": ["React", "JavaScript", "CSS"],
-    "stackStatus": "observed",
-    "stackSource": "https://sakibpatwary.netlify.app/",
-    "stackNote": "Detected on the current public website. Its current implementation may differ from the original portfolio project.",
     "stackReviewedOn": "2026-11-03"
   },
   {
@@ -114,8 +87,6 @@
     "name": "GAPS Consultancy",
     "category": "Education",
     "stack": ["React", "JavaScript", "Bootstrap"],
-    "stackStatus": "suggested",
-    "stackNote": "Suggested stack for your review. Not verified; edit this entry in src/projects.json before presenting it as the project’s actual stack.",
     "stackReviewedOn": "2026-11-03"
   },
   {
@@ -125,8 +96,6 @@
     "name": "Northeast ERP",
     "category": "Applications",
     "stack": ["React", "Node.js", "MySQL"],
-    "stackStatus": "suggested",
-    "stackNote": "Suggested stack for your review. Not verified; edit this entry in src/projects.json before presenting it as the project’s actual stack.",
     "stackReviewedOn": "2026-11-03"
   },
   {
@@ -136,11 +105,6 @@
     "name": "Nanango Star Motel",
     "category": "Travel & lifestyle",
     "stack": ["React", "Bootstrap", "Framer Motion", "EmailJS"],
-    "repositoryUrl": "https://github.com/SakibPatwary/NanangoStarMotel",
-    "stackSource": "https://github.com/SakibPatwary/NanangoStarMotel/blob/main/package.json",
-    "description": "A website for Nanango Star Motel using React. The public repository links to the original live website and includes Bootstrap, Framer Motion, and EmailJS dependencies.",
-    "stackStatus": "verified",
-    "stackNote": "Documented in the linked public repository.",
     "stackReviewedOn": "2026-11-03"
   },
   {
@@ -150,9 +114,6 @@
     "name": "Skytouch Education",
     "category": "Education",
     "stack": ["HTML", "CSS", "JavaScript", "Bootstrap", "jQuery"],
-    "stackStatus": "observed",
-    "stackSource": "https://skytoucheducation.co.uk/",
-    "stackNote": "Detected on the current public website. Its current implementation may differ from the original portfolio project.",
     "stackReviewedOn": "2026-11-03"
   },
   {
@@ -162,9 +123,6 @@
     "name": "Rang Mein Bhang",
     "category": "Travel & lifestyle",
     "stack": ["WordPress", "WooCommerce", "PHP", "jQuery"],
-    "stackStatus": "observed",
-    "stackSource": "https://rangmeinbhang.com/",
-    "stackNote": "Detected on the current public website. Its current implementation may differ from the original portfolio project.",
     "stackReviewedOn": "2026-11-03"
   },
   {
@@ -174,11 +132,6 @@
     "name": "Country Roads Motor Inn",
     "category": "Travel & lifestyle",
     "stack": ["HTML", "CSS", "JavaScript"],
-    "repositoryUrl": "https://github.com/SakibPatwary/CountryRoadsMotorInn",
-    "stackSource": "https://github.com/SakibPatwary/CountryRoadsMotorInn/blob/main/README.md",
-    "description": "The official website for Country Roads Motor Inn, Narrandera, with information about the motel, available rooms, facilities, and location.",
-    "stackStatus": "verified",
-    "stackNote": "Documented in the linked public repository.",
     "stackReviewedOn": "2026-11-03"
   },
   {
@@ -188,20 +141,15 @@
     "name": "Vape 4U BD",
     "category": "Business",
     "stack": ["HTML", "CSS", "JavaScript"],
-    "stackStatus": "observed",
-    "stackSource": "https://vape4ubd.com/",
-    "stackNote": "Detected on the current public website. Its current implementation may differ from the original portfolio project.",
     "stackReviewedOn": "2026-11-03"
   },
   {
     "id": 16,
-    "url": "https://rinaldicandleco.uk/",
+    "url": "https://rinaldicandle.com/",
     "image": "rinaldi.png",
     "name": "Rinaldi Candle Co",
     "category": "Business",
     "stack": ["WordPress", "WooCommerce", "PHP"],
-    "stackStatus": "suggested",
-    "stackNote": "Suggested stack for your review. Not verified; edit this entry in src/projects.json before presenting it as the project’s actual stack.",
     "stackReviewedOn": "2026-11-03"
   }
 ]

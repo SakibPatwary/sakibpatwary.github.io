@@ -129,35 +129,11 @@ export default function ProjectDrawer({
             <Code2 size={18} />
             <span>
               Technology stack
-              <span
-                className={`stack-status stack-${project.stackStatus || "unknown"}`}
-              >
-                {project.stackStatus === "suggested"
-                  ? "Suggested · please verify"
-                  : project.stackStatus === "observed"
-                    ? "Observed on live site"
-                    : "Repository verified"}
-              </span>
               <strong>
                 {project.stack?.length
                   ? project.stack.join(" · ")
                   : "Not specified in the original portfolio"}
               </strong>
-              {project.stackNote && (
-                <small className="stack-evidence-note">
-                  {project.stackNote}
-                </small>
-              )}
-              {project.stackSource && (
-                <a
-                  className="stack-source"
-                  href={project.stackSource}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  View stack source <ArrowUpRight size={12} />
-                </a>
-              )}
             </span>
           </div>
         </div>

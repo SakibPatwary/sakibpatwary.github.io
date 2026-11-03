@@ -280,8 +280,6 @@ export function ContactPage() {
             </div>
           </div>
           <div className="message-card">
-            <p className="eyebrow">THE NEXT TRACK STARTS HERE</p>
-            <h2>Send a message</h2>
             <ContactForm />
           </div>
         </div>
